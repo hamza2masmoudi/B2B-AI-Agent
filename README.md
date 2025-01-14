@@ -53,15 +53,17 @@ PYTHONPATH=$(pwd) pytest tests
 
 ## Project Structure 
 
-main.py                - Command-line interface for the agent
-agent.py               - Core agent logic for task routing
-tools.py               - Implementation of individual task functions
-tests/                 - Unit and integration tests
-  ├── test_agent.py      - Unit tests
-  ├── test_integration.py - Integration tests
-requirements.txt       - Python dependencies
-README.md              - Project documentation
-.env                   - Environment variables (not included in the repo)
+| File/Folder         | Description                                       |
+|---------------------|---------------------------------------------------|
+| main.py             | Command-line interface for the agent             |
+| agent.py            | Core agent logic for task routing                |
+| tools.py            | Implementation of individual task functions      |
+| tests/              | Unit and integration tests                       |
+| ├── test_agent.py   | Unit tests                                       |
+| ├── test_integration.py | Integration tests                           |
+| requirements.txt    | Python dependencies                              |
+| README.md           | Project documentation                            |
+| .env                | Environment variables (not included in the repo) |
 ## Future Enhancements
 
 
