@@ -1,4 +1,4 @@
-# My Ai Agent
+	# My Ai Agent
 
 This is a simple AI Agent that can:
 1. Research B2B accounts to identify relevant news.
@@ -10,8 +10,8 @@ This is a simple AI Agent that can:
 ## Requirements
 
 - Python 3.8+
-- An OpenAI API key (if using OpenAI for LLM-based text generation).
-- A Search API key or environment variable if you want to do real-time search (e.g. SerpAPI).
+- A Hugging Face API key for text generation.
+- A SerpAPI key for fetching real-time search results.
 
 ## Installation
 
