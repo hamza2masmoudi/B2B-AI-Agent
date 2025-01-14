@@ -62,7 +62,6 @@ tests/                 - Unit and integration tests
 requirements.txt       - Python dependencies
 README.md              - Project documentation
 .env                   - Environment variables (not included in the repo)
-
 ## Future Enhancements
 
 
