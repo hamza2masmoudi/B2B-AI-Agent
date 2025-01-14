@@ -1,4 +1,4 @@
-# My MadKudu Agent
+# My Ai Agent
 
 This is a simple AI Agent that can:
 1. Research B2B accounts to identify relevant news.
@@ -35,17 +35,13 @@ python main.py --task <TASK> [other arguments]
 
 # Available Tasks and Arguments
 
-+-------------------+---------------------------------------------+----------------------------------------------------------------------------------+
-| Task              | Required Arguments                         | Example                                                                          |
-+-------------------+---------------------------------------------+----------------------------------------------------------------------------------+
-| research_news     | --company_name                             | python main.py --task research_news --company_name Microsoft                    |
-| linkedin_note     | --contact_name, --contact_role,            | python main.py --task linkedin_note --contact_name "Jane Doe" --contact_role    |
-|                   | --contact_company                          | "CTO" --contact_company "ExampleCorp"                                           |
-| analyze_website   | --url                                       | python main.py --task analyze_website --url "https://www.example.com"           |
-| firmographic_info | --company_name                             | python main.py --task firmographic_info --company_name Google                   |
-| answer_question   | --question, --company_name                 | python main.py --task answer_question --question "What does the company do?"    |
-|                   |                                             | --company_name Amazon                                                           |
-+-------------------+---------------------------------------------+----------------------------------------------------------------------------------+
+Task              | Required Arguments                         | Example
+------------------|--------------------------------------------|----------------------------------------------------------------------------------
+research_news     | --company_name                             | python main.py --task research_news --company_name Microsoft
+linkedin_note     | --contact_name, --contact_role, --contact_company | python main.py --task linkedin_note --contact_name "Jane Doe" --contact_role "CTO" --contact_company "ExampleCorp"
+analyze_website   | --url                                      | python main.py --task analyze_website --url "https://www.example.com"
+firmographic_info | --company_name                             | python main.py --task firmographic_info --company_name Google
+answer_question   | --question, --company_name                 | python main.py --task answer_question --question "What does the company do?" --company_name Amazon
 
 
 ## Testing
