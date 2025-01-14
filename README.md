@@ -1,4 +1,4 @@
-	# My Ai Agent
+## My Ai Agent
 
 This is a simple AI Agent that can:
 1. Research B2B accounts to identify relevant news.
